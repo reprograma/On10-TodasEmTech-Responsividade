@@ -1,0 +1,23 @@
+body {
+    background-color: #f4f4f4;
+    font-family: "IBM Plex Sans";
+    font-size: 150%;
+    line-height: 1.25em;
+}
+
+a {
+    text-decoration: none;
+} 
+
+.conteiner {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+
+@media screen and (max-width: 600px) {
+    body {
+        width: 100vw;
+        font-size: 18px;
+    }
+}
