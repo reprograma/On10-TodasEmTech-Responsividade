@@ -1,0 +1,245 @@
+*
+body {
+    font-family: sans-serif;
+    color: #000000;
+
+}
+h1, h2, h3, h4 {
+    font-family: sans-serif;
+    color: #000000;
+}
+
+.botao {
+    color: #000000;
+    text-decoration: none;
+    padding: 10px 20px;
+    background-color: #191919;
+    font-size: .9em;
+    border-radius: 3px;
+    text-align: center;
+}
+
+h1 {
+    color: #000000;
+}
+p {
+    color: #c70d0d;
+    font-size: 18px;
+    text-align:center;
+}
+
+
+/* Navegação*/
+nav {
+    display: flex;
+    flex-direction: center;
+    align-items: center;
+    background-image: url("https://ibcdn.canaltech.com.br/hLq3tTJdRjXA9jjSq-nGRC32Z4M=/512x288/smart/i314081.jpeg");
+    
+  
+}
+nav > a {
+
+    text-decoration: none;
+    color:#ffffff;
+    font-weight: 800;
+    font-size: 50px;
+    font-family: serif;
+}
+nav ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    list-style: none;
+    padding:100px ;
+    width: 50%;
+}
+
+nav ul li {
+    text-align: center;
+    width: 100%;
+}
+
+nav ul li a {
+    display: inline-block;
+    padding: 10px 0px;
+    width: 100%;
+    text-decoration: none;
+    color: #ffffff
+}
+/*Cabeçalho*/
+header {
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    background-image: url("https://www.nawpic.com/media/2020/darth-vader-nawpic-14-scaled-e1607894795121.jpg");
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: #000000;
+    text-align:center;
+    padding: 20px;
+}
+
+header h1 {
+        color: #ffffff;
+      
+    }
+header p {
+    margin-bottom: 2em;
+    
+}
+.Sobre {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 10px 20px 20px;
+    background: color #191919;
+    color:#ffffff
+}
+.sobre {
+    margin-bottom: 2.5em;
+    max-width: 1000px;
+    
+}
+ 
+
+
+.Redes {
+
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ text-align: center;
+ padding: 20px;   
+
+}
+/*dorapé*/
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #191970;
+    color: #ffffff; 
+}
+
+footer a {
+
+    text-decoration: none;
+    color: #00ffff;
+}
+    
+/*Galeira*/
+
+
+.listas {
+    padding: 0,5px;
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+  .botao > a,
+
+.midias-sociais__container-link {
+      text-decoration: none;
+      color: #000000;
+      font-size: 1rem;
+      text-transform: uppercase;
+      font-family: 'Raleway', sans-serif;
+      font-weight: bold;    
+  }
+.botao {
+    margin-top: 8px;
+    background-color: white;
+    border: #000000 solid 1px;
+    padding: 10px 25px 10px 25px;
+    border-radius: 50px;
+    text-align: center;
+}
+
+.display-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .midias-sociais__container {
+    text-align: center;
+    width: 20%;
+    background-color: #100d11;
+    padding: 15px;
+  }
+  
+  .midias-sociais__container-img {
+    margin-bottom: 20px;
+  }
+  
+  .midias-sociais__container-link,
+  .midias-sociais__container-paragrafo {
+    color: white;
+  }
+  
+  .midias-sociais__container-paragrafo {
+    margin-top: 10px;
+    font-size: 0.8rem; 	
+  }
+  
+  .container {
+      max-width: 1080px;
+      margin: 0 auto;
+  }
+
+  .box img{
+	max-width: 100%;
+	width: 274px;
+	height: 274px;
+	object-fit: cover;
+
+		
+}
+
+.galeria{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+
+@media screen and (min-width: 768px) {
+
+   
+    /*nav*/
+
+   
+    nav {
+        
+        flex-direction: row;
+        justify-content: space-around ;
+        
+    }
+    nav ul {
+        flex-direction: row;
+        width: 70%;
+    }
+    
+    /*cabeçalho*/
+    
+    header {
+        height: 600px;
+        height: 60vh;
+        justify-content: center;
+    }
+
+
+/*sobre*/
+
+.sobre {
+    
+    height: 250px;
+    height: 30vh;
+    justify-content: center;
+    min-height: 250px;
+}
+}
+
