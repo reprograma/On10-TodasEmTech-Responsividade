@@ -1,0 +1,167 @@
+.banner {
+    background-image: url(../img/arvore-da-inclusao.jpg);
+    background-size: 110vh;
+    background-repeat: no-repeat;
+    background-position:right;
+    background-color: #f7efda;
+    background-attachment: fixed;
+    min-height: 80vh;
+}
+
+.hero {
+    height: 80vh;
+    width: 70%;
+    background-color: lightblue;
+    clip-path: polygon(45% 0, 70% 50%, 45% 100%, 0 100%, 0 0);
+    padding-left: 70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.hero h1 {
+    font-weight: bolder;
+    font-size: 45px;
+    margin-bottom: 15px;
+}
+
+.content {
+    margin: 55px 0;
+}
+.content h4 {
+    font-weight: bolder;
+}
+.content p {
+    font-size: 18px;
+}
+
+.disturbios {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+}
+
+.disturbios-item {
+    width: 65%;
+    border-radius: 10px;
+    margin: 20px 10px;
+}
+
+.disturbios-img {
+    width: 90%;
+}
+
+.doencas {
+    margin: 90px 0;
+}
+
+.doencas-img {
+    width: 150px;
+    height: 150px;
+    border-radius: 20px;
+}
+
+.doencas-descricao {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 15px;
+}
+
+.doencas-conteudo {
+    margin-left: 20px;
+}
+
+.doencas-conteudo h5 {
+    font-weight: bold;
+}
+
+.deficiencias-item  {
+    margin: 20px 0;
+}
+
+.deficiencias-item h5 {
+    font-weight: bold;
+}
+
+.recursos-conteudo {
+    display: flex;
+    flex-direction:row;
+    justify-content: space-around;
+}
+
+.recursos-conteudo ul {
+    font-size: 18px;
+    margin-left: 15px;
+}
+
+.links {
+    margin: 20px 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    padding: 0px;
+}
+.link-efeito {
+    padding: 10px;
+    transition: ease-in-out .5s;
+}
+.link-efeito:hover{
+    color: white;
+background-color: rebeccapurple;
+border-radius: 10px;
+
+}
+
+.links-conteiner {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 0px;
+    flex-wrap: wrap;
+}
+
+.mdi-youtube {
+    color: red;
+    font-size: 32px;
+    margin-right: 12px;
+}
+.mdi-instagram {
+    color: darkorchid; 
+    font-size: 32px;
+    margin-right: 12px;
+}
+.mdi-google-play {
+    color:rgb(7, 158, 7);
+    font-size: 32px;
+    margin-right: 12px;
+}
+
+@media screen and (max-width: 992px) {
+    .hero {
+        clip-path: none;
+        width: 100%;
+        padding-left: 10px;
+    }
+  }
+
+@media screen and (max-width: 600px) {
+    .banner {
+        background-size: auto;
+    }
+    .hero {
+        clip-path: none;
+        width: 100%;
+        padding-left: 10px;
+    }
+
+    .disturbios-item {
+        width: 100%;
+    }
+
+    .doencas-descricao {
+        padding: 0;
+        flex-wrap: wrap;
+    }
+}

@@ -1,0 +1,23 @@
+.recursos {
+    margin: 90px 0;
+}
+
+.recursos-descricao {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.recursos-img {
+    width: 150px;
+    height: 150px;
+    border-radius: 20px;
+}
+.recursos-conteudo {
+    width: 75%;
+}
+
+.recursos-conteudo h5 {
+    font-weight: bold;
+}
